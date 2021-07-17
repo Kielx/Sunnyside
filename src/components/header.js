@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 const Header = () => {
   return (
-    <header className="flex  justify-between px-8 py-12">
-      <div className="w-full">Sunnyside</div>
+    <header className="flex justify-between px-8 py-12">
+      <div className="w-full text-2xl font-extrabold">sunnyside</div>
       <div className="gap-4 hidden md:flex">
         <div>About</div>
         <div>Services</div>
@@ -18,7 +18,7 @@ const Header = () => {
           <svg width="24" height="18" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M24 16v2H0v-2h24zm0-8v2H0V8h24zm0-8v2H0V0h24z"
-              fill="#000"
+              fill="#fff"
               fill-rule="evenodd"
             />
           </svg>
@@ -26,7 +26,7 @@ const Header = () => {
 
         <div
           id="sortboxmenu"
-          className="absolute px-10 mt-1 right-1 top-full min-w-max shadow rounded opacity-0 bg-white border border-gray-400 transition delay-75 ease-in-out z-10"
+          className="absolute px-20 mt-1 right-1 top-full min-w-max shadow rounded opacity-0 bg-white border border-gray-400 transition delay-75 ease-in-out z-10"
         >
           <ul className="block text-center text-gray-900">
             <li>
