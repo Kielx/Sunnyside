@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-const Header = () => {
+const Navbar = () => {
   return (
-    <header className="flex justify-between px-8 py-12">
+    <nav className="flex justify-between px-8 py-12">
       <div className="w-full text-2xl font-extrabold">sunnyside</div>
       <div className="gap-4 hidden md:flex">
         <div>About</div>
@@ -48,8 +48,8 @@ const Header = () => {
           </ul>
         </div>
       </div>
-    </header>
+    </nav>
   );
 };
 
-export default Header;
+export default Navbar;

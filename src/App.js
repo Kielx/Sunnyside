@@ -1,16 +1,27 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import Header from "./components/header";
-import headerImage from "./images/image-header.jpg";
-import eggImage from "./images/image-transform.jpg";
+import Navbar from "./components/Navbar";
+import headerImageMobile from "./images/mobile/image-header.jpg";
+import headerImage from "./images/desktop/image-header.jpg";
+import eggImage from "./images/mobile/image-transform.jpg";
 
 function App() {
+  const checkScreenWidth =
+    window.innerWidth ||
+    document.documentElement.clientWidth ||
+    document.body.clientWidth;
+  console.log(checkScreenWidth);
   return (
     <>
       <div
         className="app bg-center w-full h-auto p-0 m-0 pb-28 font-display text-white bg-cover bg-no-repeat"
-        style={{ backgroundImage: `url(${headerImage})` }}
+        style={{
+          backgroundImage:
+            checkScreenWidth > 768
+              ? `url(${headerImage})`
+              : `url(${headerImageMobile})`,
+        }}
       >
-        <Header></Header>
+        <Navbar></Navbar>
         <div className="text-3xl mb-4 mx-auto text-center font-text uppercase text-white tracking-widest">
           We are creatives{" "}
         </div>
@@ -32,7 +43,7 @@ function App() {
           </g>
         </svg>
       </div>
-      <img src={eggImage}></img>
+      <img src={eggImage} alt="an egg" aria-hidden="true"></img>
       <div className="font-text">
         Transform your brand We are a full-service creative agency specializing
         in helping brands grow fast. Engage your clients through compelling
