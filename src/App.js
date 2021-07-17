@@ -3,9 +3,9 @@ import Header from "./components/header";
 
 function App() {
   return (
-    <>
+    <div className="font-display">
       <Header></Header>
-      <div>
+      <div className="font-text">
         We are creatives Transform your brand We are a full-service creative
         agency specializing in helping brands grow fast. Engage your clients
         through compelling visuals that do most of the marketing for you. Learn
@@ -24,7 +24,7 @@ function App() {
         sales increased over 400% when we worked with Sunnyside. Highly
         recommended! Jennie F. Business Owner About Services Projects Contact
       </div>
-    </>
+    </div>
   );
 }
 
