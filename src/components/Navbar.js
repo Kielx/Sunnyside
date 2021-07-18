@@ -12,14 +12,14 @@ const Navbar = () => {
       <div className="relative md:hidden">
         <input type="checkbox" id="sortbox" className="hidden absolute" />
         <label
-          for="sortbox"
+          htmlFor="sortbox"
           className="flex items-center space-x-1 cursor-pointer"
         >
           <svg width="24" height="18" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M24 16v2H0v-2h24zm0-8v2H0V8h24zm0-8v2H0V0h24z"
               fill="#fff"
-              fill-rule="evenodd"
+              fillRule="evenodd"
             />
           </svg>
         </label>
