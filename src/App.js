@@ -26,6 +26,7 @@ function App() {
           grow fast. Engage your clients through compelling visuals that do most
           of the marketing for you."
         decorationColor="hsl(51, 100%, 49%)"
+        order={[2, 1]}
       ></Section>
       <Section
         image={section2Image}
@@ -35,6 +36,7 @@ function App() {
         designers, researchers, photographers, videographers, and copywriters,
         we’ll build and extend your brand in digital places."
         decorationColor="#fd7867"
+        order={[1, 2]}
       ></Section>
       <GraphicSection
         image={section3Image}
