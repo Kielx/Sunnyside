@@ -2,7 +2,7 @@ import React from "react";
 
 const TestimonialsCard = ({ clientImage, text, name, position }) => {
   return (
-    <>
+    <div className="testimonialsCard lg:max-w-1/4 ">
       <img
         alt="Client"
         src={clientImage}
@@ -23,7 +23,7 @@ const TestimonialsCard = ({ clientImage, text, name, position }) => {
       >
         {position}
       </p>
-    </>
+    </div>
   );
 };
 

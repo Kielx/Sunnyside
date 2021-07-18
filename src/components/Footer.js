@@ -6,11 +6,27 @@ const Footer = () => {
       <h2 className="text-center pt-8 pb-8 text-3xl font-extrabold">
         sunnyside
       </h2>
-      <ul className="flex justify-around pb-16">
-        <li>About</li>
-        <li>Services</li>
-        <li>Projects</li>
-        <li>Contact</li>
+      <ul className="md:justify-center md:gap-8 flex justify-around pb-16">
+        <li>
+          <a href="#" className="hover:text-white transition-colors">
+            About
+          </a>
+        </li>
+        <li>
+          <a href="#" className="hover:text-white transition-colors">
+            Services
+          </a>
+        </li>
+        <li>
+          <a href="#" className="hover:text-white transition-colors">
+            Projects
+          </a>
+        </li>
+        <li>
+          <a href="#" className="hover:text-white transition-colors">
+            Contact
+          </a>
+        </li>
       </ul>
       <ul className="flex justify-center gap-6 pb-8">
         <li>

@@ -28,6 +28,7 @@ function App() {
         decorationColor="hsl(51, 100%, 49%)"
         order={[2, 1]}
       ></Section>
+
       <Section
         image={section2Image}
         imageMobile={section2ImageMobile}
@@ -38,23 +39,25 @@ function App() {
         decorationColor="#fd7867"
         order={[1, 2]}
       ></Section>
-      <GraphicSection
-        image={section3Image}
-        imageMobile={section3ImageMobile}
-        headerText="Graphic design"
-        text="Great design makes you memorable. We deliver
+      <div className="cont md:flex">
+        <GraphicSection
+          image={section3Image}
+          imageMobile={section3ImageMobile}
+          headerText="Graphic design"
+          text="Great design makes you memorable. We deliver
       artwork that underscores your brand message and captures potential
       clients’ attention."
-        textColor="darkDesaturatedCyan"
-      ></GraphicSection>
-      <GraphicSection
-        image={section4Image}
-        imageMobile={section4ImageMobile}
-        headerText="Photography "
-        text="Increase your credibility by getting the most stunning,
+          textColor="darkDesaturatedCyan"
+        ></GraphicSection>
+        <GraphicSection
+          image={section4Image}
+          imageMobile={section4ImageMobile}
+          headerText="Photography "
+          text="Increase your credibility by getting the most stunning,
         high-quality photos that improve your business image."
-        textColor="darkBlue"
-      ></GraphicSection>
+          textColor="darkBlue"
+        ></GraphicSection>
+      </div>
       <Testimonials></Testimonials>
       <Gallery></Gallery>
       <Footer></Footer>

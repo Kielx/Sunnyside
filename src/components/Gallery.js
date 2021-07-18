@@ -25,7 +25,7 @@ const Gallery = () => {
         aria-hidden="true"
         key={index}
         src={images[index]}
-        className="gallery__image w-1/2"
+        className="gallery__image w-1/2 md:max-w-1/4"
       />
     );
   });

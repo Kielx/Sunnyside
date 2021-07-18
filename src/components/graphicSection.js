@@ -14,7 +14,7 @@ const GraphicSection = ({
 
   return (
     <section
-      className="w-full h-auto p-0 m-0 bg-cover bg-no-repeat pt-64 bg-top"
+      className="md:w-1/2 h-auto p-0 m-0 bg-cover bg-no-repeat pt-64 bg-top"
       style={{
         backgroundImage:
           checkScreenWidth > 768 ? `url(${image})` : `url(${imageMobile})`,
@@ -22,12 +22,12 @@ const GraphicSection = ({
     >
       <div>
         <h2
-          className={`pt-20 pb-4 text-3xl mb-4 mx-auto text-center font-text text-display-${textColor} font-extrabold`}
+          className={`xl:pt-72 lg:pt-48 md:pt-32 pt-20 pb-4 text-3xl mb-4 mx-auto text-center font-text text-display-${textColor} font-extrabold`}
         >
           {headerText}
         </h2>
         <p
-          className={`text-center text-display-${textColor} font-md font-semibold pb-16 px-4`}
+          className={`lg:px-32 text-center text-display-${textColor} font-md font-semibold pb-16 px-4`}
         >
           {text}
         </p>

@@ -6,9 +6,9 @@ import clientImage3 from "../images/image-jennie.jpg";
 
 const Testimonials = ({ image, imageMobile, headerText, text, textColor }) => {
   return (
-    <section className="w-full">
+    <section className="md:py-24 md:flex md:flex-wrap lg:justify-center w-full">
       <h2
-        className={`pt-16 pb-8 text-l mb-4 mx-auto text-center font-text text-display-grayishBlue font-extrabold uppercase tracking-widest`}
+        className={`md:w-full md:pb-16 md:text-xl pt-16 pb-8 text-l mb-4 mx-auto text-center font-text text-display-grayishBlue font-extrabold uppercase tracking-widest`}
       >
         Client testimonials
       </h2>

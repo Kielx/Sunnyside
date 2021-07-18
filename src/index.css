@@ -26,3 +26,9 @@ body,
   right: 3px;
   top: 44px;
 }
+
+@layer utilities {
+  .max-w-quarter {
+    max-width: 25%;
+  }
+}
