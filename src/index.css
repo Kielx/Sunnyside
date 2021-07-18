@@ -32,3 +32,16 @@ body,
     max-width: 25%;
   }
 }
+
+.learnMore,
+.learnMoreYellow,
+.learnMoreRed {
+  border-bottom: 12px solid transparent;
+  transition: all 0.5s ease-in;
+}
+.learnMoreRed:hover {
+  border-bottom: 12px solid hsl(7, 99%, 70%);
+}
+.learnMoreYellow:hover {
+  border-bottom: 12px solid hsl(51, 100%, 49%);
+}

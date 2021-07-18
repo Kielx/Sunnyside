@@ -56,34 +56,41 @@ const Navbar = () => {
         ></div>
         <div
           id="sortboxmenu"
-          className="absolute px-20 pb-4 pt-8 right-1 top-16 opacity-0 bg-white transition delay-75 ease-in-out z-10"
+          className="absolute pb-4 pt-8 right-1 top-16 opacity-0 bg-white transition delay-75 ease-in-out z-10"
           style={{ right: "3px" }}
         >
           <ul className="block text-center text-display-veryDarkGrayishBlue">
-            <li>
-              <a href="#" className="block px-3 py-3 hover:bg-gray-200">
+            <li style={{ minWidth: "16rem" }} className="py-4">
+              <a
+                className="hover:bg-display-yellow px-6 py-3 cursor-pointer             hover:text-black
+                hover:font-text hover:uppercase hover:rounded-full "
+              >
                 About
               </a>
             </li>
-            <li>
-              <a href="#" className="block px-3 py-3 hover:bg-gray-200">
+            <li style={{ minWidth: "16rem" }} className="py-4">
+              <a
+                className="hover:bg-display-yellow px-6 py-3 cursor-pointer             hover:text-black
+                hover:font-text hover:uppercase hover:rounded-full "
+              >
                 Services
               </a>
             </li>
-            <li>
-              <a href="#" className="block px-3 py-3 hover:bg-gray-200">
+            <li style={{ minWidth: "16rem" }} className="py-4">
+              <a
+                className="hover:bg-display-yellow px-6 py-3 cursor-pointer             hover:text-black
+                hover:font-text hover:uppercase hover:rounded-full "
+              >
                 Projects
               </a>
             </li>
-            <li className="py-4">
-              <button
-                className="rounder bg-display-yellow                 text-black
-                font-text uppercase rounded-full px-2"
+            <li style={{ minWidth: "16rem" }} className="py-4">
+              <a
+                className="hover:bg-display-yellow px-6 py-3 cursor-pointer             hover:text-black
+                hover:font-text hover:uppercase hover:rounded-full "
               >
-                <a href="#" className="block px-3 py-3 hover:bg-gray-200">
-                  Contact
-                </a>
-              </button>
+                Contact
+              </a>
             </li>
           </ul>
         </div>

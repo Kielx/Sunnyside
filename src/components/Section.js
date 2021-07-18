@@ -5,7 +5,7 @@ const Section = ({
   imageMobile,
   headerText,
   text,
-  decorationColor,
+  learnMore,
   order,
 }) => {
   const checkScreenWidth =
@@ -28,16 +28,10 @@ const Section = ({
         <p className="md:px-20 md:text-left text-center text-display-darkModerateCyan font-md font-semibold px-4">
           {text}
         </p>
-        <h3
-          className="md:px-20 md:pt-12 md:text-left text-center uppercase font-extrabold font-text text-md pt-6 pb-16"
-          style={{
-            textDecoration: "underline",
-            textDecorationThickness: "50%",
-            textUnderlineOffset: "-3px",
-            textDecorationColor: decorationColor,
-          }}
-        >
-          <a href="#">Learn More</a>
+        <h3 className=" md:px-20 md:pt-12 md:text-left text-center uppercase font-extrabold font-text text-md pt-6 pb-16">
+          <a href="#" className={learnMore}>
+            Learn More
+          </a>
         </h3>
       </div>
     </section>

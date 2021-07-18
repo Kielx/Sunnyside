@@ -25,7 +25,7 @@ function App() {
         text="          We are a full-service creative agency specializing in helping brands
           grow fast. Engage your clients through compelling visuals that do most
           of the marketing for you."
-        decorationColor="hsl(51, 100%, 49%)"
+        learnMore="learnMoreYellow"
         order={[2, 1]}
       ></Section>
 
@@ -36,7 +36,7 @@ function App() {
         text="Using a collaborative formula of
         designers, researchers, photographers, videographers, and copywriters,
         we’ll build and extend your brand in digital places."
-        decorationColor="#fd7867"
+        learnMore="learnMoreRed"
         order={[1, 2]}
       ></Section>
       <div className="cont md:flex">
