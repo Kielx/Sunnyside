@@ -10,6 +10,7 @@ import section3ImageMobile from "./images/mobile/image-graphic-design.jpg";
 import section3Image from "./images/desktop/image-graphic-design.jpg";
 import section4ImageMobile from "./images/mobile/image-photography.jpg";
 import section4Image from "./images/desktop/image-photography.jpg";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -50,16 +51,9 @@ function App() {
         high-quality photos that improve your business image."
         textColor="darkBlue"
       ></GraphicSection>
+      <Testimonials></Testimonials>
 
-      <div className="font-text">
-        I Client testimonials We put our trust in Sunnyside and they delivered,
-        making sure our needs were met and deadlines were always hit. Emily R.
-        Marketing Director Sunnyside’s enthusiasm coupled with their keen
-        interest in our brand’s success made it a satisfying and enjoyable
-        experience. Thomas S. Chief Operating Officer Incredible end result! Our
-        sales increased over 400% when we worked with Sunnyside. Highly
-        recommended! Jennie F. Business Owner About Services Projects Contact
-      </div>
+      <div className="font-text">About Services Projects Contact</div>
     </>
   );
 }
