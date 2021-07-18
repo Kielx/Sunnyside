@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 const Navbar = () => {
   return (
-    <nav className="flex justify-between px-8 py-12">
+    <nav className="flex justify-between px-4 py-12">
       <div className="w-full text-2xl font-extrabold">sunnyside</div>
       <div className="gap-4 hidden md:flex">
         <div>About</div>
@@ -25,12 +25,17 @@ const Navbar = () => {
         </label>
 
         <div
+          id="triangle-bottomright"
+          className="opacity-0 transition delay-75 ease-in-out z-10"
+        ></div>
+        <div
           id="sortboxmenu"
-          className="absolute px-20 py-8 right-1 shadow  opacity-0 bg-white transition delay-75 ease-in-out z-10"
+          className="absolute px-20 pb-4 pt-8 right-1 top-16 opacity-0 bg-white transition delay-75 ease-in-out z-10"
+          style={{ right: "3px" }}
         >
           <ul className="block text-center text-display-veryDarkGrayishBlue">
             <li>
-              <a href="#" className="block px-3 pb-3 hover:bg-gray-200">
+              <a href="#" className="block px-3 py-3 hover:bg-gray-200">
                 About
               </a>
             </li>

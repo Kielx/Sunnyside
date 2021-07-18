@@ -6,9 +6,23 @@
   opacity: 1;
 }
 
+#sortbox:checked ~ #triangle-bottomright {
+  opacity: 1;
+}
+
 html,
 body,
 #root {
   height: 100%;
   width: 100%;
+}
+
+#triangle-bottomright {
+  width: 0px;
+  height: 0;
+  border-bottom: 20px solid white;
+  border-left: 20px solid transparent;
+  position: absolute;
+  right: 3px;
+  top: 44px;
 }
