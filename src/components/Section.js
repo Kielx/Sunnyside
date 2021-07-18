@@ -2,9 +2,9 @@
 /**
    * PurgeCSS:
    * order-1
-   * order-0
+   * order-2
    * md:order-1
-   * md:order-0
+   * md:order-2
    * text-purple-500
    * text-indigo-500
    * text-blue-500
