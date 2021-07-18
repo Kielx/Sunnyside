@@ -1,4 +1,17 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+/**
+   * PurgeCSS:
+   * order-1
+   * order-0
+   * md:order-1
+   * md:order-0
+   * text-purple-500
+   * text-indigo-500
+   * text-blue-500
+   * text-pink-500
+   *
+
+   */
 
 const Section = ({
   image,
