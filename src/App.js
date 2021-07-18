@@ -2,6 +2,7 @@ import Hero from "./components/Hero";
 import Section from "./components/Section";
 import GraphicSection from "./components/graphicSection";
 import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 
 import section1ImageMobile from "./images/mobile/image-transform.jpg";
 import section1Image from "./images/desktop/image-transform.jpg";
@@ -54,7 +55,7 @@ function App() {
       ></GraphicSection>
       <Testimonials></Testimonials>
       <Gallery></Gallery>
-      <div className="font-text">About Services Projects Contact</div>
+      <Footer></Footer>
     </>
   );
 }

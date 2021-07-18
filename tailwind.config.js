@@ -11,6 +11,7 @@ module.exports = {
         display: {
           softRed: "hsl(7, 99%, 70%)",
           yellow: "hsl(51, 100%, 49%)",
+          green: "rgb(145 211 196)",
           darkDesaturatedCyan: "hsl(167, 40%, 24%)",
           darkBlue: "hsl(198, 62%, 26%)",
           darkModerateCyan: "hsl(168, 34%, 41%)",
