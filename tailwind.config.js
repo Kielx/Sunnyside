@@ -24,7 +24,12 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      fontFamily: ["hover"],
+      borderRadius: ["hover"],
+      padding: ["hover"],
+      textTransform: ["hover"],
+    },
   },
   plugins: [],
 };

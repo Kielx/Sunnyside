@@ -1,13 +1,39 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 const Navbar = () => {
   return (
-    <nav className="flex justify-between px-4 py-12">
-      <div className="w-full text-2xl font-extrabold">sunnyside</div>
-      <div className="gap-4 hidden md:flex">
-        <div>About</div>
-        <div>Services</div>
-        <div>Projects</div>
-        <div>Contact</div>
+    <nav className="flex px-8 py-12">
+      <div className="text-2xl font-extrabold" style={{ flexGrow: "2" }}>
+        sunnyside
+      </div>
+      <div className="hidden md:flex">
+        <a
+          style={{ minWidth: "8rem" }}
+          href="#"
+          className="hover:uppercase text-center hover:font-text hover:text-black hover:rounded-full py-3 hover:px-4 hover:bg-white"
+        >
+          About
+        </a>
+        <a
+          style={{ minWidth: "8rem" }}
+          href="#"
+          className="hover:uppercase text-center hover:font-text hover:text-black hover:rounded-full py-3 hover:px-4 hover:bg-white"
+        >
+          Services
+        </a>
+        <a
+          style={{ minWidth: "8rem" }}
+          href="#"
+          className="hover:uppercase text-center hover:font-text hover:text-black hover:rounded-full py-3 hover:px-4 hover:bg-white"
+        >
+          Projects
+        </a>
+        <a
+          style={{ minWidth: "8rem" }}
+          href="#"
+          className="hover:uppercase text-center hover:font-text hover:text-black hover:rounded-full py-3 hover:px-4 hover:bg-white"
+        >
+          Contact
+        </a>
       </div>
       <div className="relative md:hidden">
         <input type="checkbox" id="sortbox" className="hidden absolute" />
