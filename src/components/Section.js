@@ -25,7 +25,7 @@ const Section = ({ image, imageMobile, headerText, text, decorationColor }) => {
           style={{
             textDecoration: "underline",
             textDecorationThickness: "50%",
-            textUnderlineOffset: "-4px",
+            textUnderlineOffset: "-3px",
             textDecorationColor: decorationColor,
           }}
         >
