@@ -26,24 +26,33 @@ const Navbar = () => {
 
         <div
           id="sortboxmenu"
-          className="absolute px-20 mt-1 right-1 top-full min-w-max shadow rounded opacity-0 bg-white border border-gray-400 transition delay-75 ease-in-out z-10"
+          className="absolute px-20 py-8 right-1 shadow  opacity-0 bg-white transition delay-75 ease-in-out z-10"
         >
-          <ul className="block text-center text-gray-900">
+          <ul className="block text-center text-display-veryDarkGrayishBlue">
             <li>
-              <a href="#" className="block px-3 py-2 hover:bg-gray-200">
+              <a href="#" className="block px-3 pb-3 hover:bg-gray-200">
                 About
               </a>
             </li>
-            <li>Services</li>
             <li>
-              <a href="#" className="block px-3 py-2 hover:bg-gray-200">
-                Projects
+              <a href="#" className="block px-3 py-3 hover:bg-gray-200">
+                Services
               </a>
             </li>
             <li>
-              <a href="#" className="block px-3 py-2 hover:bg-gray-200">
-                Contact
+              <a href="#" className="block px-3 py-3 hover:bg-gray-200">
+                Projects
               </a>
+            </li>
+            <li className="py-4">
+              <button
+                className="rounder bg-display-yellow                 text-black
+                font-text uppercase rounded-full px-2"
+              >
+                <a href="#" className="block px-3 py-3 hover:bg-gray-200">
+                  Contact
+                </a>
+              </button>
             </li>
           </ul>
         </div>
