@@ -45,3 +45,12 @@ body,
 .learnMoreYellow:hover {
   border-bottom: 12px solid hsl(51, 100%, 49%);
 }
+
+path {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 400ms;
+}
+svg:hover > path {
+  fill: #fff;
+}
