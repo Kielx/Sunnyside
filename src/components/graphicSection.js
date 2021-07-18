@@ -1,5 +1,19 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
+/**
+   * PurgeCSS:
+   * order-1
+   * order-2
+   * md:order-1
+   * md:order-2
+   * text-display-darkDesaturatedCyan
+   * text-display-darkBlue
+   * text-blue-500
+   * text-pink-500
+   *
+
+   */
+
 const GraphicSection = ({
   image,
   imageMobile,
