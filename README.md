@@ -1,6 +1,7 @@
 # Sunnyside agency landing page
 
-A nice looking landing page for creative agency created with React and Tailwind CSS.
+A nice-looking landing page for a creative agency created with React and Tailwind CSS.
+Thanks to Tailwind I managed to code this from 0 to working in little more than 24 hours.
 
 ## Table of contents
 
@@ -13,33 +14,21 @@ A nice looking landing page for creative agency created with React and Tailwind 
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
+The project was a challenge from [Sunnyside agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef).
+I decided that my portfolio of projects is lacking something good-looking and well designed so coding that landing page would be a good experience and asset. 
+
 ### The challenge
 
-Users should be able to:
-
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+This was my first project using Tailwind CSS. Utility and Mobile First CSS was a challenge itself. Nevertheless, the experience was really good and allowed me to create this project in a little more than 24 hours.
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+<div align="center">
+<img alt="Landing page" src="https://github.com/Kielx/Sunnyside/blob/screenshots/screenshots/SunnysideSS.png?raw=true" width="400" />
+</div>
 
 ### Built with
 
@@ -52,7 +41,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-This was a rapid project so I could showcase something with cool colors and good design. It was also a good chance to pracice Tailwind CSS and writing all styles from scratch. Overall it was a great learning opportunity. Definateley going to stay with Tailwind for longer.
+This was a rapid project so I could showcase something with cool colors and good design. It was also a good chance to practice Tailwind CSS and writing all styles from scratch. Overall it was a great learning opportunity. Definitely going to stay with Tailwind for longer.
 
 ## Author
 
